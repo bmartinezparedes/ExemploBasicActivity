@@ -14,6 +14,12 @@ import com.kiskos.exemplobasicactivity.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
+    /*
+    El nombre del objeto de binding se pude cambiar cambiando el nombre del
+    activity_main.xml que coincide con la primera parte de ActivityMainBinding.
+    Hay que cambiarle tambien el nombre de la importacion. Este objeto se crea
+    automaticamente a partir del xml. (Asi lo entiendo yo)
+    */
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
